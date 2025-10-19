@@ -8,8 +8,18 @@
 
 </head>
 <body>
-    <div class="Calculator">
-        <input type="text" id="display" readonly>
+    <div class="ui">
+       <div class="intro-ios">
+  <div class="intro-text">
+    <h3>Use Calculator on your Device</h3>
+    <h1>Calculator App</h1>
+    <p>User Interface Design</p>
+  </div>
+</div>
+
+
+        <div class="Calculator">
+            <input type="text" id="display" readonly>
         <div class="buttons">
             <button class="clear" onclick="cleardisplay()">C</button>
             <button onclick="delchar()">del</button>
@@ -33,7 +43,33 @@
         </div>
         
     </div>
-   
+        <div class="Calculator2">
+            <input type="text" id="display2" readonly>
+        <div class="buttons2">
+            <button class="clear2" onclick="cleardisplay()">C</button>
+            <button onclick="delchar()">del</button>
+            <button onclick="press('%')">%</button>
+            <button onclick="press('/')">/</button>
+            <button onclick="press('7')">7</button>
+            <button onclick="press('8')">8</button>
+            <button onclick="press('9')">9</button>
+            <button onclick="press('*')">*</button>
+            <button onclick="press('4')">4</button>
+            <button onclick="press('5')">5</button>
+            <button onclick="press('6')">6</button>
+            <button onclick="press('-')">-</button>
+            <button onclick="press('1')">1</button>
+            <button onclick="press('2')">2</button>
+            <button onclick="press('3')">3</button>
+            <button onclick="press('+')">+</button>
+            <button class="zero2" onclick="press('0')">0</button>
+            <button onclick="press('.')">.</button>
+            <button class="perple2" onclick="main()">=</button>
+        </div>
+        
+    </div>
+</div>
+    
 </body>
 <script src="app.js"></script>
 </html>

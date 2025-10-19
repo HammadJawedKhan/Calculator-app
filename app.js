@@ -26,11 +26,11 @@ var opretor = "+-*/%.";
 
 if(userText === ""){
     display.value = ""
-    alert("Koi value ya operator to add kerdo")
+    alert("pleas Add any number or aperator")
     return
 }
 else if(opretor.includes(userText[0]) || opretor.includes(userText[userText.length -1])){
-    display.value = "No se shro kro or 1 se zyada operator ka istimal nhi kro";
+    display.value = "syntax Error";
     return
 }
 
